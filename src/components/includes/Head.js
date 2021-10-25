@@ -54,7 +54,9 @@ const VersionSmall = styled.small`
     color: #0e4faa;
 `;
 const Right = styled.div`
-    
+    @media all and (max-width: 980px) {
+        display: none;
+    }
 `;
 const UnorderledList = styled.ul`
     display: flex;
@@ -75,10 +77,15 @@ const List = styled.li`
 `;
 const ListButton = styled.li`
     font-size: 16px;
-    background: #4dac56;
+    background: #00ab55;
     padding: 10px 20px;
-    border-radius: 12px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s ease;
+    &:hover{
+        transition: 0.3s ease;
+        background: #007b55;
+    }
 `;
 const Arrow = styled.div`
     width: 15px;
