@@ -64,16 +64,28 @@ const Bottom = styled.div`
     border-radius: 16px;
     color: #fff;
     padding-right: 35px;
+    @media all and (max-width: 768px) {
+        flex-direction: column;
+        padding-right: 0;
+    }
 `;
 const Left = styled.div``;
 const Image = styled.img``;
 const Right = styled.div`
     width: 50%;
+    @media all and (max-width: 768px) {
+        width: 90%;
+        text-align: center;
+        padding-bottom: 30px;
+    }    
 `;
 const Heading = styled.h6`
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 40px;
+    @media all and (max-width: 480px) {
+       font-size: 32px;
+    }
 `;
 const Br = styled.br`
     @media all and (max-width: 980px) {

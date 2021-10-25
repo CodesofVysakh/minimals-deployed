@@ -56,6 +56,9 @@ const Title = styled.h5`
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 10%;
+    @media all and (max-width: 640px) {
+        font-size: 32px;
+    }
 `;
 const Br = styled.br`
     @media all and (max-width: 980px) {
@@ -100,6 +103,9 @@ const ScreenDiv1 = styled.div`
         top: unset;
         right: 55%;
     }
+    @media all and (max-width: 480px) {
+        bottom: 50px;
+    }
 `;
 const ScreenDiv2 = styled.div`
     z-index: 4;
@@ -117,7 +123,10 @@ const ScreenDiv2 = styled.div`
         bottom: 80px;
         top: unset;
         right: 40%;
-  }
+    }
+    @media all and (max-width: 480px) {
+        bottom: 50px;
+    }
     `;
 const ScreenDiv3 = styled.div`
     z-index: 3;
@@ -135,7 +144,9 @@ const ScreenDiv3 = styled.div`
         bottom: 80px;
         top: unset;
         right: 25%;
-
+    }
+    @media all and (max-width: 480px) {
+        bottom: 50px;
     }
 `;
 const Image = styled.img`

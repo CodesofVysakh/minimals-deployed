@@ -112,6 +112,9 @@ const Title = styled.h5`
     font-size: 55px;
     font-weight: 600;
     margin-bottom: 20px;
+    @media all and (max-width: 640px) {
+        font-size: 32px;
+    }
 `;
 const Description = styled.p`
     color: #85939e;
@@ -259,8 +262,14 @@ const BelowTitle = styled.h5`
     @media all and (max-width: 980px) {
         font-size: 40px;
     }
+    @media all and (max-width: 640px) {
+        font-size: 32px;
+    }
 `;
 const Br = styled.br`
+    @media all and (max-width: 480px) {
+        display: none;
+    }
 `;
 const BelowRight = styled.div`
     width: 100%;

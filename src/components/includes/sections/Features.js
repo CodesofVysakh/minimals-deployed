@@ -81,6 +81,9 @@ const Title = styled.h5`
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 10%;
+    @media all and (max-width: 640px) {
+        font-size: 32px;
+    }
 `;
 const Bottom = styled.div``;
 const Items = styled.div`
@@ -108,6 +111,9 @@ const Item = styled.div`
         padding: 80px 50px;
         box-shadow: rgb(145 158 171 / 40%) -40px 40px 80px 0px;
     }
+    @media all and (max-width: 640px) {
+        width: 100%;
+    }
 `;
 const PaddedItem = styled.div`
     background: #fff;
@@ -127,7 +133,9 @@ const PaddedItem = styled.div`
         transform: translateY(0);
         margin-bottom: 40px;
     }
-    
+    @media all and (max-width: 640px) {
+        width: 100%;
+    }
 `;
 const DownItem = styled.div`
     background: #f3f6f8;
@@ -146,6 +154,9 @@ const DownItem = styled.div`
         padding: 80px 50px;
         transform: translateY(0);
         box-shadow: rgb(145 158 171 / 40%) -40px 40px 80px 0px;
+    }
+    @media all and (max-width: 640px) {
+        width: 100%;
     }
 `;
 const ImageContainer = styled.div`
@@ -174,6 +185,9 @@ const PaddedDiv = styled.div`
     @media all and (max-width: 980px) {
         padding: 80px 50px;
         box-shadow: none;
+    }
+    @media all and (max-width: 640px) {
+        padding: 50px 20px;
     }
 `;
 

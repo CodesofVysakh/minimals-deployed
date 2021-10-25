@@ -118,6 +118,9 @@ const Title = styled.h5`
     font-size: 55px;
     font-weight: 600;
     margin-bottom: 20px;
+    @media all and (max-width: 640px) {
+        font-size: 32px;
+    }
 `;
 const Description = styled.p`
     color: #85939e;
@@ -143,6 +146,9 @@ const Item = styled.div`
         margin-bottom: 20px;
         box-shadow: rgb(145 158 171 / 75%) 0px 48px 80px;
     }
+    @media all and (max-width: 640px) {
+        width: 100%;
+    }
 `;
 const ItemMiddle = styled.div`
     width: 30%;
@@ -154,6 +160,10 @@ const ItemMiddle = styled.div`
         width: 60%;
         text-align: center;
         margin-bottom: 20px;
+        box-shadow: rgb(145 158 171 / 75%) -1px 3px 80px;
+    }
+    @media all and (max-width: 640px) {
+        width: 100%;
     }
 `;
 const ItemTag = styled.small`

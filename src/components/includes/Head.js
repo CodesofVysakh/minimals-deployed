@@ -32,6 +32,10 @@ const Header = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    width: 90%;
 `;
 const Left = styled.div`
     display: flex;

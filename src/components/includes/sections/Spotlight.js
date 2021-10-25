@@ -49,6 +49,7 @@ const Body = styled.div`
     background: url(${Overlay});
     background-size: cover;
     color: #fff;
+    padding: 40px 0 10px;
 `;
 const Wrapper = styled.div``;
 const MainBody = styled.div`
@@ -76,15 +77,16 @@ const Title = styled.h3`
     }
 `;
 const Br = styled.br`
-    
+    @media all and (max-width: 640px) {
+        display: none;
+    }
 `;
 const ColorGreen = styled.small`
     color: #4dac56;
     font-size: 70px;
     font-weight: 600;
     @media all and (max-width: 980px) {
-        font-size: 50px;
-    }
+        font-size: 50px;    }
 `;
 const Description = styled.p`
     margin-bottom: 30px;
@@ -164,6 +166,9 @@ const Right = styled.div`
         position: absolute;
         top: 0;
         right: 0;
+    }
+    @media all and (max-width: 640px) {
+        display: none;
     }
 `;
 const ImageContainer = styled.div`
