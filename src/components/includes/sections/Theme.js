@@ -130,12 +130,14 @@ const Bottom = styled.div`
     }
 `;
 const ImageBlock1 = styled.img`
+    animation: flow 3s linear infinite;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
 `;
 const ImageBlock2 = styled.img`
+    animation: flow 2s linear infinite;
     position: absolute;
     top: 0;
     left: 0;
@@ -152,6 +154,7 @@ const ImageScreen = styled.img`
     left: 0;
 `;
 const ImageSidebar= styled.img`
+    animation: flow 3.5s linear infinite;
     position: absolute;
     top: 0;
     left: 0;
@@ -168,9 +171,13 @@ const Ulist = styled.ul`
 `;
 const List = styled.li`
     cursor: pointer;
-    margin-right: 20px;
-    :last-child{
-        margin-right: 0;
+    @media all and (max-width: 980px) {
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+        :last-child{
+            margin-right: 0;
+        }
     }
 `;
 const Green = styled.span`

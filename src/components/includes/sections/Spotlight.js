@@ -13,6 +13,7 @@ import TSIcon from '../../assets/images/home/ts.svg';
 import HeroImage from '../../assets/images/home/hero.png';
 
 function Spotlight() {
+
     return (
         <>
             <Body>
@@ -49,7 +50,7 @@ const Body = styled.div`
     background: url(${Overlay});
     background-size: cover;
     color: #fff;
-    padding: 40px 0 10px;
+    /* padding: 40px 0 10px; */
 `;
 const Wrapper = styled.div``;
 const MainBody = styled.div`

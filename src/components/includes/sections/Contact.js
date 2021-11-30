@@ -69,7 +69,9 @@ const Bottom = styled.div`
         padding-right: 0;
     }
 `;
-const Left = styled.div``;
+const Left = styled.div`
+    animation: rocket 3.5s linear infinite;
+`;
 const Image = styled.img``;
 const Right = styled.div`
     width: 50%;

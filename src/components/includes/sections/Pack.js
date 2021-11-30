@@ -41,7 +41,10 @@ const MainBody = styled.div`
     }
 `;
 const Left = styled.div`
-    text-align: center;
+    text-align: left;
+    @media all and (max-width: 980px) {
+        text-align: center;
+    }
 `;
 const TitleTag = styled.small`
     text-transform: uppercase;
